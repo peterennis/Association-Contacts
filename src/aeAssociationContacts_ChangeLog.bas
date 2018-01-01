@@ -69,11 +69,16 @@ End Sub
 '
 '=============================================================================================================================
 ' Tasks:
+' %055 -
+' %054 -
+' %053 -
+' %052 -
+' %051 -
 ' %050 -
-' %049 -
-' %048 -
-' %047 -
-' %046 -
+' %049 - Create contact additional location table
+' %048 - Create contact history ribbon button
+' %047 - Create contact history form
+' %046 - Create contact history table and queries
 ' %031 - Create backend on network SQL Server with renamed front end
 ' %030 - Create backend on local SQL Server with renamed front end
 ' %029 - Create backend on SQL Azure with renamed front end

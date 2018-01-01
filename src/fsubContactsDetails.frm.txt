@@ -739,8 +739,9 @@ Begin Form
                 Begin CommandButton
                     OverlapFlags =87
                     AccessKey =77
-                    Left =1440
+                    Left =1500
                     Top =4320
+                    Width =1380
                     Height =540
                     FontSize =11
                     TabIndex =18
@@ -755,7 +756,7 @@ Begin Form
                     UnicodeAccessKey =77
                     GridlineColor =10921638
 
-                    LayoutCachedLeft =1440
+                    LayoutCachedLeft =1500
                     LayoutCachedTop =4320
                     LayoutCachedWidth =2880
                     LayoutCachedHeight =4860
