@@ -8,8 +8,8 @@ Public gintUserId As Integer
 ' Constants for settings of "ACDB"
 Public Const gblnTEST As Boolean = True
 Public Const gstrPROJECT_ACDB As String = "AssociationContacts"
-Private Const mstrVERSION_ACDB As String = "0.1.5"
-Private Const mstrDATE_ACDB As String = "December 31, 2017"
+Private Const mstrVERSION_ACDB As String = "0.1.6"
+Private Const mstrDATE_ACDB As String = "January 2, 2018"
 
 Public Const ACDB_SQL_FRONT_END = False
 Public Const ACDB_AZSQL_FRONT_END = False
@@ -69,16 +69,21 @@ End Sub
 '
 '=============================================================================================================================
 ' Tasks:
+' %060 -
+' %059 -
+' %058 -
+' %057 -
+' %056 -
 ' %055 -
-' %054 -
-' %053 -
-' %052 -
-' %051 -
-' %050 -
-' %049 - Create contact additional location table
+' %054 - How to create AD domain controller VM in Azure and add a remote PC?
+' %053 - Create archive table for dbs changes
+' %052 - Allow auditing with modification date field
+' %051 - Use "deleted" field for values to be deleted
+' %050 - Create contact history queries
+' %049 - *BE - Create contact additional location table
 ' %048 - Create contact history ribbon button
 ' %047 - Create contact history form
-' %046 - Create contact history table and queries
+' %046 - *BE - Create contact history table
 ' %031 - Create backend on network SQL Server with renamed front end
 ' %030 - Create backend on local SQL Server with renamed front end
 ' %029 - Create backend on SQL Azure with renamed front end
