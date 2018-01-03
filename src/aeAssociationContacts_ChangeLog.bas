@@ -8,8 +8,8 @@ Public gintUserId As Integer
 ' Constants for settings of "ACDB"
 Public Const gblnTEST As Boolean = True
 Public Const gstrPROJECT_ACDB As String = "AssociationContacts"
-Private Const mstrVERSION_ACDB As String = "0.1.1"
-Private Const mstrDATE_ACDB As String = "December 24, 2017"
+Private Const mstrVERSION_ACDB As String = "0.1.5"
+Private Const mstrDATE_ACDB As String = "December 31, 2017"
 
 Public Const ACDB_SQL_FRONT_END = False
 Public Const ACDB_AZSQL_FRONT_END = False
@@ -69,32 +69,36 @@ End Sub
 '
 '=============================================================================================================================
 ' Tasks:
-' %045 -
-' %044 -
-' %043 -
-' %042 -
-' %038 - Implement tblBinary for loading theme artwork internally
+' %050 -
+' %049 -
+' %048 -
+' %047 -
+' %046 -
 ' %031 - Create backend on network SQL Server with renamed front end
 ' %030 - Create backend on local SQL Server with renamed front end
 ' %029 - Create backend on SQL Azure with renamed front end
 ' %028 - Connect to SQL Azure with node.js, https://docs.microsoft.com/en-us/azure/sql-database/sql-database-connect-query-nodejs
-' %027 - GH#34, Use basic validation for email addresses
 ' %024 - GH#26, Design a logo, implement in test app, add to DFAQ
-' %023 - GH#27, Add ribbon interface
-' %022 - GH#30, Filter by Type of Contact
-' %021 - GH#31, LAT and LON not included on the contact form
-<<<<<<< HEAD
-' %020 - GH#32, Unique Id for tables
-=======
-' %020 - *BE - GH#32, Unique Id for tables
->>>>>>> 8fced63bbe7dd0f1c7ded00e5bb286796b728ae6
-' %003 - Relates to GH#9, include version tracking details in the app database change log module
 ' %002 - Test Helen Fedema add-in for renaming http://www.helenfeddema.com/files/Code10.zip
 ' %001 - Use ae standards for naming objects - Ref: https://en.wikipedia.org/wiki/Hungarian_notation,
 '           https://en.wikipedia.org/wiki/Leszynski_naming_convention
 '           RVBA: https://ss64.com/access/syntax-naming.html
 '=============================================================================================================================
 '
+'20171231 - v015 -
+    ' FIXED - %045 - Open map location for lat lon
+'20171230 - v014 -
+    ' FIXED - %044 - Fix ribbon button for splash form
+    ' FIXED - %022 - GH#30, Filter by Type of Contact
+'20171230 - v012 -
+    ' FIXED - %043 - Error - cannot run MyAddInInitialize
+    ' FIXED - %042 - Fix stray contact_details reference
+    ' FIXED - %038 - Implement tblBinary for loading theme artwork internally
+    ' FIXED - %027 - GH#34, Use basic validation for email addresses
+    ' FIXED - %023 - GH#27, Add ribbon interface
+    ' FIXED - %021 - GH#31, LAT and LON not included on the contact form
+    ' FIXED - %020 - *BE - GH#32, Unique Id for tables
+    ' FIXED - %003 - Relates to GH#9, include version tracking details in the app database change log module
 '20171224 - v011 -
     ' FIXED - %041 - Fix forms to match id/field naming standard
     ' FIXED - %040 - Fix queries to match id/field naming standard
