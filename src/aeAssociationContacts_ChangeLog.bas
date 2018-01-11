@@ -9,7 +9,7 @@ Public gintUserId As Integer
 Public Const gblnTEST As Boolean = True
 Public Const gstrPROJECT_ACDB As String = "AssociationContacts"
 Private Const mstrVERSION_ACDB As String = "0.1.6"
-Private Const mstrDATE_ACDB As String = "January 2, 2018"
+Private Const mstrDATE_ACDB As String = "January 11, 2018"
 
 Public Const ACDB_SQL_FRONT_END = False
 Public Const ACDB_AZSQL_FRONT_END = False
@@ -69,21 +69,11 @@ End Sub
 '
 '=============================================================================================================================
 ' Tasks:
-' %060 -
-' %059 -
-' %058 -
-' %057 -
-' %056 -
-' %055 -
-' %054 - How to create AD domain controller VM in Azure and add a remote PC?
-' %053 - Create archive table for dbs changes
-' %052 - Allow auditing with modification date field
-' %051 - Use "deleted" field for values to be deleted
-' %050 - Create contact history queries
-' %049 - *BE - Create contact additional location table
-' %048 - Create contact history ribbon button
-' %047 - Create contact history form
-' %046 - *BE - Create contact history table
+' %050 -
+' %049 -
+' %048 -
+' %047 -
+' %046 - Develop test of web browser control for loading svg theme images (web-browser-control-test.accdb)
 ' %031 - Create backend on network SQL Server with renamed front end
 ' %030 - Create backend on local SQL Server with renamed front end
 ' %029 - Create backend on SQL Azure with renamed front end
