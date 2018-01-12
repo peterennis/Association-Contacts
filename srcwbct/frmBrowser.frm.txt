@@ -1,0 +1,235 @@
+Version =20
+VersionRequired =20
+PublishOption =1
+Begin Form
+    RecordSelectors = NotDefault
+    NavigationButtons = NotDefault
+    DividingLines = NotDefault
+    AllowDesignChanges = NotDefault
+    DefaultView =0
+    PictureAlignment =2
+    DatasheetGridlinesBehavior =3
+    GridX =24
+    GridY =24
+    Width =8884
+    DatasheetFontHeight =11
+    ItemSuffix =10
+    Right =20160
+    Bottom =12375
+    DatasheetGridlinesColor =14806254
+    RecSrcDt = Begin
+        0xa88d60afb50ce540
+    End
+    GUID = Begin
+        0xba248302dbe79241a07083fdd430c4bb
+    End
+    DatasheetFontName ="Calibri"
+    PrtMip = Begin
+    End
+    PrtDevMode = Begin
+    End
+    PrtDevNames = Begin
+    End
+    FilterOnLoad =0
+    ShowPageMargins =0
+    DisplayOnSharePointSite =1
+    DatasheetAlternateBackColor =15921906
+    DatasheetGridlinesColor12 =0
+    FitToScreen =1
+    DatasheetBackThemeColorIndex =1
+    BorderThemeColorIndex =3
+    ThemeFontIndex =1
+    ForeThemeColorIndex =0
+    AlternateBackThemeColorIndex =1
+    AlternateBackShade =95.0
+    PrtDevModeW = Begin
+    End
+    PrtDevNamesW = Begin
+    End
+    NoSaveCTIWhenDisabled =1
+    Begin
+        Begin CommandButton
+            FontSize =11
+            FontWeight =400
+            FontName ="Calibri"
+            ForeThemeColorIndex =0
+            ForeTint =75.0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+            UseTheme =1
+            Shape =1
+            Gradient =12
+            BackThemeColorIndex =4
+            BackTint =60.0
+            BorderLineStyle =0
+            BorderColor =16777215
+            BorderThemeColorIndex =4
+            BorderTint =60.0
+            ThemeFontIndex =1
+            HoverThemeColorIndex =4
+            HoverTint =40.0
+            PressedThemeColorIndex =4
+            PressedShade =75.0
+            HoverForeThemeColorIndex =0
+            HoverForeTint =75.0
+            PressedForeThemeColorIndex =0
+            PressedForeTint =75.0
+        End
+        Begin Subform
+            BorderLineStyle =0
+            BorderThemeColorIndex =1
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+            BorderShade =65.0
+            ShowPageHeaderAndPageFooter =1
+        End
+        Begin EmptyCell
+            Height =240
+            GridlineColor =12632256
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+        End
+        Begin WebBrowser
+            OldBorderStyle =1
+            BackThemeColorIndex =1
+            BorderThemeColorIndex =1
+            BorderShade =65.0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+        End
+        Begin NavigationControl
+            BorderWidth =1
+            BorderLineStyle =0
+            BackThemeColorIndex =1
+            BorderThemeColorIndex =1
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+        End
+        Begin NavigationButton
+            ForeColor =-2
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+            HoverColor =-2
+            HoverThemeColorIndex =2
+            HoverTint =20.0
+            PressedColor =-2
+            PressedThemeColorIndex =2
+            PressedTint =60.0
+            HoverForeColor =-2
+            HoverForeThemeColorIndex =0
+            HoverForeTint =75.0
+            PressedForeColor =-2
+            PressedForeThemeColorIndex =0
+            PressedForeTint =75.0
+            BackColor =15790320
+            BackThemeColorIndex =1
+            OldBorderStyle =0
+            BorderLineStyle =0
+            BorderThemeColorIndex =3
+            BorderShade =90.0
+            ThemeFontIndex =1
+            FontName ="Calibri"
+            FontWeight =400
+            FontSize =11
+            ForeThemeColorIndex =0
+            ForeTint =75.0
+        End
+        Begin Section
+            CanGrow = NotDefault
+            Height =6060
+            Name ="Detail"
+            GUID = Begin
+                0x687ebb399f55144882bc1eca37d4e8a4
+            End
+            AlternateBackColor =15921906
+            AlternateBackThemeColorIndex =1
+            AlternateBackShade =95.0
+            BackThemeColorIndex =1
+            Begin
+                Begin WebBrowser
+                    OldBorderStyle =0
+                    OverlapFlags =85
+                    Left =1440
+                    Top =660
+                    Width =7200
+                    Height =5100
+                    AutoActivate =1
+                    BorderColor =10921638
+                    Name ="webBrowser"
+                    OleData = Begin
+                    End
+                    GUID = Begin
+                        0x52f3d5aba38dcc4e9e1c109420fdcb18
+                    End
+                    GridlineColor =10921638
+
+                    LayoutCachedLeft =1440
+                    LayoutCachedTop =660
+                    LayoutCachedWidth =8640
+                    LayoutCachedHeight =5760
+                    ControlSource ="=SetWebBrowserControlSource()"
+                    OnDocumentComplete ="[Event Procedure]"
+                    OnNavigateError ="[Event Procedure]"
+                End
+                Begin CommandButton
+                    OverlapFlags =85
+                    Left =120
+                    Top =120
+                    Width =1260
+                    Height =405
+                    TabIndex =1
+                    ForeColor =4210752
+                    Name ="cmdGo"
+                    Caption ="Go"
+                    OnClick ="[Event Procedure]"
+                    GUID = Begin
+                        0xb4fcccfdef07614689abc6ac625e5f9b
+                    End
+                    GridlineColor =10921638
+
+                    LayoutCachedLeft =120
+                    LayoutCachedTop =120
+                    LayoutCachedWidth =1380
+                    LayoutCachedHeight =525
+                    BackColor =14136213
+                    BorderColor =14136213
+                    HoverColor =15060409
+                    PressedColor =9592887
+                    HoverForeColor =4210752
+                    PressedForeColor =4210752
+                    WebImagePaddingLeft =2
+                    WebImagePaddingTop =2
+                    WebImagePaddingRight =1
+                    WebImagePaddingBottom =1
+                    Overlaps =1
+                End
+            End
+        End
+    End
+End
+CodeBehindForm
+Attribute VB_GlobalNameSpace = False
+Attribute VB_Creatable = True
+Attribute VB_PredeclaredId = True
+Attribute VB_Exposed = False
+Option Compare Database
+Option Explicit
+
+' https://social.msdn.microsoft.com/Forums/en-US/511ce531-89aa-4e74-95a5-97f477b57024/cant-include-and-run-javascript-in-webbrowser-control?forum=csharpgeneral
+' @"<html><head><script src='c:\test.js' type='text/javascript' /></head><body></body></html>";
+
+Private Sub cmdGo_Click()
+
+    ' Ref: https://social.msdn.microsoft.com/Forums/vstudio/en-US/a469aece-e1de-4369-873b-2d03f98a8222/an-error-has-occurred-in-the-script-on-this-page?forum=vbgeneral
+    'Me.webBrowser.ControlSource = "=""https://www.bing.com"""
+    Me.webBrowser.ControlSource = "=""file://C:\ae\Association-Contacts\themes\rda\rda_256x256_svgomg.svg"""
+
+End Sub
+
+Private Sub webBrowser_DocumentComplete(ByVal pDisp As Object, URL As Variant)
+    'MsgBox "Document Complete!", vbInformation, "webBrowser_DocumentComplete"
+End Sub
+
+Private Sub webBrowser_NavigateError(ByVal pDisp As Object, URL As Variant, TargetFrameName As Variant, StatusCode As Variant, Cancel As Boolean)
+    MsgBox "Err = " & Err, vbInformation, "webBrowser_NavigateError"
+End Sub
