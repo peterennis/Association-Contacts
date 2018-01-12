@@ -77,7 +77,6 @@ End Sub
 ' %050 -
 ' %049 -
 ' %048 - Test tsc64_1090.cab script control
-' %046 - Develop test of web browser control for loading svg theme images (web-browser-control-test.accdb)
 ' %031 - Create backend on network SQL Server with renamed front end
 ' %030 - Create backend on local SQL Server with renamed front end
 ' %029 - Create backend on SQL Azure with renamed front end
@@ -91,6 +90,7 @@ End Sub
 '
 '20180111 - v016 -
     ' FIXED - %047 - Add dll alternative for MSScript control that is not provided on x64 (tsc64_1090.cab)
+    ' FIXED - %046 - Develop test of web browser control for loading svg theme images (web-browser-control-test.accdb)
 '20171231 - v015 -
     ' FIXED - %045 - Open map location for lat lon
 '20171230 - v014 -
