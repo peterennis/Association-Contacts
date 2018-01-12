@@ -69,10 +69,14 @@ End Sub
 '
 '=============================================================================================================================
 ' Tasks:
+' %055 -
+' %054 -
+' %053 -
+' %052 -
+' %051 -
 ' %050 -
 ' %049 -
-' %048 -
-' %047 -
+' %048 - Test tsc64_1090.cab script control
 ' %046 - Develop test of web browser control for loading svg theme images (web-browser-control-test.accdb)
 ' %031 - Create backend on network SQL Server with renamed front end
 ' %030 - Create backend on local SQL Server with renamed front end
@@ -85,6 +89,8 @@ End Sub
 '           RVBA: https://ss64.com/access/syntax-naming.html
 '=============================================================================================================================
 '
+'20180111 - v016 -
+    ' FIXED - %047 - Add dll alternative for MSScript control that is not provided on x64 (tsc64_1090.cab)
 '20171231 - v015 -
     ' FIXED - %045 - Open map location for lat lon
 '20171230 - v014 -
